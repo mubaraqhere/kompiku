@@ -3,28 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     color: white;
     height: 100%;
-    background: url("KompiKuBG.jpg") no-repeat center center fixed; 
+    background: url("KompiKuBG.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-.header{
+
+.header {
     text-align: center;
     width: 100%;
     background-color: #00A2FF;
     padding: 5px 0;
 }
-.section{
+
+.section {
     width: 90%;
     max-width: 1100px;
 }
-.section-container{
+
+.section-container {
     width: 60%;
     max-width: 700px;
     position: fixed;
@@ -33,10 +37,12 @@ body{
     transform: translate(-50%, -50%);
     display: flex;
 }
-.testimonial h3{
+
+.testimonial h3 {
     text-align: center;
 }
-.testimonial a{
+
+.testimonial a {
     text-decoration: none;
     position: fixed;
     bottom: 15%;
@@ -44,24 +50,29 @@ body{
     color: white;
 
 }
-.about-us h3{
+
+.about-us h3 {
     text-align: center;
 }
-.about-us a{
+
+.about-us a {
     text-decoration: none;
     position: fixed;
     bottom: 15%;
     font-weight: bold;
     color: white;
 }
-.login h3{
+
+.login h3 {
     text-align: center;
 }
-.input-box{
+
+.input-box {
     padding: 5px 5px;
     border-bottom: 3px solid white;
 }
-.input-box input{
+
+.input-box input {
     border: none;
     outline: none;
     background: none;
@@ -70,18 +81,22 @@ body{
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
 }
-.input-box input :focus{
+
+.input-box input :focus {
     color: white;
 }
-::placeholder{
+
+::placeholder {
     color: white;
     font-weight: bold;
 }
-.container p{
+
+.container p {
     padding: 10px 0;
     text-align: left;
 }
-.container{
+
+.container {
     border: solid 2px rgb(129, 129, 209);
     border-radius: 12px;
     padding: 10px;
@@ -89,8 +104,9 @@ body{
     width: 30%;
     min-width: 185px;
 }
-.btn{
-    background: linear-gradient(white,whitesmoke);
+
+.btn {
+    background: linear-gradient(white, whitesmoke);
     padding: 5px 0;
     width: 100%;
     margin: 15px 0;
@@ -99,7 +115,7 @@ body{
     cursor: pointer;
 }
 
-.footer{
+.footer {
     width: 100%;
     position: fixed;
     bottom: 0%;
@@ -109,11 +125,13 @@ body{
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 }
-.footer ul{
+
+.footer ul {
     list-style: none;
     margin: 0 10px;
 }
-.footer ul li{
+
+.footer ul li {
     margin: 5px 0;
     padding: 5px;
     font-weight: bold;
