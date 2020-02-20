@@ -9,14 +9,30 @@ html{
 *,*:before, *:after{
     box-sizing: inherit;
 }
+header{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background-color: #00A2FF;
+    padding: 5px 0;
+}
+.row{
+    background: url("KompiKuBG.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 .column{
     display: inline-block;
     width: 50%;
     margin: 16px;
     padding: 8px;
+    /* background-color: white; */
 }
 .card{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: whitesmoke;
 }
 .about-section{
     padding: 50px;
@@ -27,6 +43,9 @@ html{
 .container{
     padding: 0 16px;
 }
+.card img{
+    border-radius: 50%;
+}
 .container::after, .row::after{
     content:"";
     clear: both;
@@ -34,4 +53,25 @@ html{
 }
 .title{
     color: grey;
+}
+.footer{
+    width: 100%;
+    overflow: hidden;
+    /* position: fixed; */
+    bottom: 0;
+    display: flex;
+    background-color: #00A2FF;
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer ul{
+    list-style-type: none;
+    margin: 0 10px;
+    padding:0;
+}
+.footer ul li{
+    margin: 5px 0;
+    padding: 5px;
+    /* font-weight: bold; */
 }
