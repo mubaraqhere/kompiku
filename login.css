@@ -1,0 +1,53 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.login-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 15px;
+    width: 30%;
+}
+.login-container h3{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;    
+    margin: 30px 0;
+}
+.input-box{
+    margin: 10px;
+    padding: 10px;
+    
+}
+.input-box input{
+    border: none;
+    outline: none;
+    background: none;
+    padding: 10px 0;
+    border-bottom: 1px solid blue;
+}
+
+.btn{
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    background: none;
+    border-radius: 12px;
+}
+
+.testi-container{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    transform: translate(0, -50%);
+    border: solid 1px black;
+}
