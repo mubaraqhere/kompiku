@@ -15,6 +15,23 @@ header{
     width: 100%;
     background-color: #00A2FF;
     padding: 5px 0;
+    overflow: hidden;
+}
+/* .topnav{
+    background-color: #1d1d7c;
+    position: fixed;
+    overflow: hidden;
+} */
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 10px;
+    font-size: 15px;
+}
+.topnav-right{
+    float: right;
 }
 .row{
     background: url("KompiKuBG.jpg") no-repeat center center fixed; 

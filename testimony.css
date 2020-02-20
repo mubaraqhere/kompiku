@@ -15,12 +15,13 @@ header{
     width: 100%;
     background-color: #00A2FF;
     padding: 5px 0;
+    overflow: hidden;
 }
 /* .topnav{
     background-color: #1d1d7c;
     position: fixed;
     overflow: hidden;
-}
+}*/
 .topnav a{
     float: left;
     color: #f2f2f2;
@@ -29,7 +30,7 @@ header{
     padding: 20px 10px;
     font-size: 15px;
 }
-.topnav-right{
+/* .topnav-right{
     float: right;
 } */
 .section{
