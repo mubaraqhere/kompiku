@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+html{
+    box-sizing: border-box;
+}
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+.column{
+    display: inline-block;
+    width: 50%;
+    margin: 16px;
+    padding: 8px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.about-section{
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+}
+.container{
+    padding: 0 16px;
+}
+.container::after, .row::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+.title{
+    color: grey;
+}
