@@ -100,9 +100,10 @@ body {
     border: solid 2px rgb(129, 129, 209);
     border-radius: 12px;
     padding: 10px;
-    margin: 0 5px;
+    margin-left: 250px;
     width: 30%;
     min-width: 185px;
+    height: 200px;
 }
 
 .btn {
@@ -113,6 +114,34 @@ body {
     color: black;
     font-weight: bold;
     cursor: pointer;
+}
+
+.SignIn {
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 43px;
+    font-size: xx-large;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ColorLink1 a:link {
+    color: white;
+}
+
+.ColorLink1 a:hover {
+    color: #F3EC19;
+}
+
+.ColorLink1 a:visited {
+    color: white;
+}
+
+.ColorLink1 a:active {
+    color: #F3EC19;
 }
 
 .footer {
