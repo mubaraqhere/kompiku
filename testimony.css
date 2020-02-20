@@ -9,12 +9,36 @@ html{
 *,*:before, *:after{
     box-sizing: inherit;
 }
-/* .column{
-    float:left;
-    width: 22.5%;
-    margin: 16px;
-    padding: 8px;
+header{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background-color: #00A2FF;
+    padding: 5px 0;
+}
+/* .topnav{
+    background-color: #1d1d7c;
+    position: fixed;
+    overflow: hidden;
+}
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 10px;
+    font-size: 15px;
+}
+.topnav-right{
+    float: right;
 } */
+.section{
+    background: url("KompiKuBG.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 .card{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
@@ -27,6 +51,7 @@ html{
 .container{
     display: inline-block;
     border: 2px solid #cccccc;
+    background-color: whitesmoke;
     border-radius: 5px;
     width: 50%;
     margin: 16px 0;
@@ -46,4 +71,25 @@ html{
 }
 .title{
     color: grey;
+}
+.footer{
+    width: 100%;
+    overflow: hidden;
+    /* position: fixed; */
+    bottom: 0;
+    display: flex;
+    background-color: #00A2FF;
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer ul{
+    list-style-type: none;
+    margin: 0 10px;
+    padding:0;
+}
+.footer ul li{
+    margin: 5px 0;
+    padding: 5px;
+    /* font-weight: bold; */
 }
