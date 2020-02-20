@@ -1,53 +1,53 @@
-body{
-    padding: 0;
-    margin: 0;
-    font-family: 'Times New Roman', Times, serif;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="header">
+        <img src="KompiKuLogo.png" alt="">
+    </div>
+    <div class="section">
+        <div class="testimonial container">
+            <h3>Testimonial</h3>
+            <p>Do you want to see what people are talking about us?</p>
+            <a href="#"><b>Details</b> >></a>
+        </div>
+        <div class="login container">
+            <form action="#">
+                <h3>Sign in</h3>
+                <div class="input-box">
+                    <input type="text" placeholder="Username" required>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                </div>
+                <input type="submit" value="Sign in" class="btn">
+            </form>
+        </div>
+        <div class="about-us container">
+            <h3>About us</h3>
+            <p>Kompiku is computer's accessory marketplace for all !</p>
+            <a href="#"><em><b>About us</b></em></a>
 
-.login-container{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 10px 15px;
-    width: 30%;
-}
-.login-container h3{
-    text-align: center;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 25px;    
-    margin: 30px 0;
-}
-.input-box{
-    margin: 10px;
-    padding: 10px;
-    
-}
-.input-box input{
-    border: none;
-    outline: none;
-    background: none;
-    padding: 10px 0;
-    border-bottom: 1px solid blue;
-}
-
-.btn{
-    width: 100%;
-    padding: 10px 0;
-    margin: 10px 0;
-    background: none;
-    border-radius: 12px;
-}
-
-.testi-container{
-    width: 30%;
-    position: absolute;
-    top: 50%;
-    left: 1%;
-    transform: translate(0, -50%);
-    border: solid 1px black;
-}
+        </div>
+    </div>
+    <div class="footer">
+        <ul>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Address</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">English</a></li>
+            <li><a href="#">Bahasa Indonesia</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Terms & Policy</a></li>
+            <li><a href="#">Credit</a></li>
+        </ul>
+    </div>
+</body>
+</html>
