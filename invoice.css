@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+}
+.container{
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    
+}
+.invoice-container{
+    padding: 10px 15px;
+    width: 100%;
+    min-width: 700px;
+    display: flex;
+    font-size: 18px;
+    margin-bottom: 15px;
+    
+}
+.sender ul li, .invoice ul li{
+    padding: 10px 0;
+}
+.sender{
+    width: 40%;
+}
+.invoice{
+    top: 10px;
+    text-align: right;
+    width: 30%;
+    position: fixed;
+    right: 15px;
+}
+
+.invoice-text{
+    font-size: 35px;
+}
+.bill-to h3{
+    width: 100%;
+    background-color: rgb(158, 158, 231);
+    color: white;
+    padding: 10px 15px;
+}
+.bill-to ul li{
+    padding: 15px 10px;
+}
+.bought-details table{
+    width: 100%;
+}
+.bought-details table tr th{
+    background-color: rgb(158, 158, 231);
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+}
+.bought-details table tr td{
+    font: 20px;
+    text-align: right;
+    padding: 15px;
+}
+.bottom-container{
+    width: 100%;
+}
+.total-payment{
+    text-align: right;
+}
+.total-payment ul li{
+    padding: 15px;
+}
+.product-name{
+    float: left;
+}
+.terms{
+    padding: 10px 0;
+}
+.terms ul li{
+    padding: 5px;
+}
+.ttd{
+    padding: 5px;
+}
+.ttd ul li{
+    padding: 5px;
+}

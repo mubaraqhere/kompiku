@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <link rel="stylesheet" href="invoice.css">
+</head>
+<body>
+    <div class="container">
+        <div class="invoice-container">
+            <div class="sender">
+                <ul>
+                    <li><b>[Sender.Company]</b></li>
+                    <li>[Sender.Street]</li>
+                    <li>[Sender.City], [Sender.State] [Sender.Zip]</li>
+                    <li>Phone: [Sender.Phone]</li>
+                    <li>Fax: [Sender.Fax]</li>
+                    <li>Email: [Sender.Email]</li>
+                </ul>
+            </div>
+            <div class="invoice">
+                <ul>
+                    <li><b><span class="invoice-text">INVOICE</span></b></li>
+                    <li>Date: [Sent.Date]</li>
+                    <li>Invoice #:: [Invoice.Number]</li>
+                    <li>Payment Due: [Invoice.DueDate]</li>
+                </ul>
+            </div>
+        </div>
+        <div class="bill-to">
+            <h3>Bill To:</h3>
+            <ul>
+                <li>[Customer.AttnName]</li>
+                <li>[Customer.Company]</li>
+                <li>[Customer.Street]</li>
+                <li>[Customer.City] [Customer.State] [Customer.Zip]</li>
+                <li>Phone: [Customer.Phone]</li>
+                
+            </ul>
+        </div>
+        <div class="bought-details">
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>QTY</th>
+                    <th>Subtotal</th>
+                </tr>
+                <tr>
+                    <td><span class="product-name">[Product.Name]</span></td>
+                    <td>$0.00</td>
+                    <td>1</td>
+                    <td>$0.00</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Subtotal</td>
+                    <td>$0.00</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><b>Total</b></td>
+                    <td><b>$0.00</b></td>
+                </tr>
+            </table>
+        </div>
+        <div class="bottom-container">
+            
+            <div class="information-container">
+                <div class="terms">
+                    <ul>
+                        <li>Terms: [Payment.Terms]</li>
+                        <li>Terms: [Comments]</li>
+                    </ul>
+                </div>
+                <div class="ttd">
+                    <h3><b>RECEIVED:</b></h3>
+                    <br><br><br><br><br>
+                    <p>____________________</p>
+                    <ul>
+                        <li>[Customer.FirstName][Customer.LastName]</li>
+                        <li>[Customer.Company]</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
