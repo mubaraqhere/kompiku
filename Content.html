@@ -1,257 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <title>KompiKu Hardwares</title>
-        <link rel="stylesheet" type="text/css" href="Content.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        <meta charset="utf-8">
-    </head>
+<head>
+    <title>KompiKu Hardwares</title>
+    <link rel="stylesheet" type="text/css" href="Content.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta charset="utf-8">
+</head>
 
-    <body>
-        
-        <header id="Header">
-            <div class="Box Item1">
-                <label for="Search">Cari Barang</label>
-                <form class="Search">
-                    <input type="submit" value="submit">
-                    <input type="search" name="Search">
-                </form>
+<body>
+
+    <header id="Header">
+        <div class="Box Item1">
+            <label for="Search">Cari Barang</label>
+            <form class="Search">
+                <input type="submit" value="submit">
+                <input type="search" name="Search">
+            </form>
+        </div>
+
+        <div class="Box Item2">
+            <img src="Images/KompiKuLogo.png">
+        </div>
+
+        <div class="Box Item3 ColorLink1">
+            <a href="about_us.html">About Us</a>
+        </div>
+
+        <div class="Box Item4 ColorLink1">
+            <a href="testimony.html">Testimoni</a>
+        </div>
+    </header>
+
+    <main id="Main">
+
+        <div id="SideBar">
+            <form>
+                <label for="Urutkan">Urutkan</label>
+                <select id="Urutkan" name="Urutkan">
+                    <option value="Termurah">Harga Terendah</option>
+                    <option value="Termahal">Harga Tertinggi</option>
+                    <option value="Sesuai">Paling Sesuai</option>
+                    <option value="Terbaru">Terbaru</option>
+
+                </select><br>
+                <br>
+                <br>
+
+                <p>Dukungan Pengiriman</p><br>
+
+                <label for="JNE">JNE</label>
+                <input type="checkbox" id="JNE" name="JNE" value="JNE"><br>
+
+                <label for="Grab">Grab</label>
+                <input type="checkbox" id="Grab" name="Grab" value="Grab"><br>
+
+                <label for="Gosend">Gosend</label>
+                <input type="checkbox" id="Gosend" name="Gosend" value="Gosend"><br>
+                <br>
+                <br>
+
+                <p>Kondisi</p><br>
+
+                <label for="Baru">Baru</label>
+                <input type="radio" id="Baru" name="Kondisi" value="Baru"><br>
+
+                <label for="Bekas">Bekas</label>
+                <input type="radio" id="Bekas" name="Kondisi" value="Bekas"><br>
+                <br>
+                <br>
+                <br>
+
+                <a href="#" class="Cari">Cari</a>
+
+            </form>
+        </div>
+
+        <div id="List">
+            <div class="Barang1 kotak">
+                <div class="Thumbnail">
+                    <img src="Images/Catalog/Ryzen3.png">
+
+                </div>
+
+                <div class="Desc">
+                    <p>AMD Ryzen 3 3200G 3.6Ghz Up To 4.0Ghz Cache 4MB 65W AM4</p><br>
+                    <p>Rp1.363.000</p><br>
+                    <a href="invoice.html" class="Beli">Beli</a>
+                </div>
+
             </div>
 
-            <div class="Box Item2">
-                <img src="Images/KompiKuLogo.png">
+            <div class="Barang2 kotak">
+                <div class="Thumbnail">
+                    <img src="Images/Catalog/Ryzen5.png">
+                </div>
+
+                <div class="Desc">
+                    <p>AMD Ryzen 5 3600 3.6Ghz Up To 4.2Ghz Cache 32MB 65W AM4</p><br>
+                    <p>Rp2.879.000</p><br>
+                    <a href="invoice.html" class="Beli">Beli</a>
+                </div>
+
             </div>
 
-            <div class="Box Item3 ColorLink1">
-                <a href="about_us.html">About Us</a>
+            <div class="Barang3 kotak">
+                <div class="Thumbnail">
+                    <img src="Images/Catalog/Intel3.png">
+                </div>
+
+                <div class="Desc">
+                    <p>Intel Core i3-9100F 3.6Ghz Up To 4.2Ghz</p><br>
+                    <p>Rp1.135.000</p><br>
+                    <a href="invoice.html" class="Beli">Beli</a>
+                </div>
+
             </div>
 
-            <div class="Box Item4 ColorLink1">
-                <a href="testimony.html">Testimoni</a>
-            </div>
-        </header>
+            <div class="Barang4 kotak">
+                <div class="Thumbnail">
+                    <img src="Images/Catalog/Intel5.png">
+                </div>
 
-        <main id="Main">
+                <div class="Desc">
+                    <p>Intel Core i5 9600K Coffee Lake 6-Core 3.7 GHz LGA 1151</p><br>
+                    <p>Rp3.379.000</p><br>
+                    <a href="invoice.html" class="Beli">Beli</a>
+                </div>
 
-            <div id="SideBar">
-                <form>
-                    <label for="Urutkan">Urutkan</label>
-                    <select id="Urutkan" name="Urutkan">
-                        <option value="Termurah">Harga Terendah</option>
-                        <option value="Termahal">Harga Tertinggi</option>
-                        <option value="Sesuai">Paling Sesuai</option>
-                        <option value="Terbaru">Terbaru</option>
-
-                    </select><br>
-                    <br>
-                    <br>
-
-                    <p>Dukungan Pengiriman</p><br>
-
-                    <label for="JNE">JNE</label>
-                    <input type="checkbox" id="JNE" name="JNE" value="JNE"><br>
-
-                    <label for="Grab">Grab</label>
-                    <input type="checkbox" id="Grab" name="Grab" value="Grab"><br>
-
-                    <label for="Gosend">Gosend</label>
-                    <input type="checkbox" id="Gosend" name="Gosend" value="Gosend"><br>
-                    <br>
-                    <br>
-
-                    <p>Kondisi</p><br>
-
-                    <label for="Baru">Baru</label>
-                    <input type="radio" id="Baru" name="Kondisi" value="Baru"><br>
-
-                    <label for="Bekas">Bekas</label>
-                    <input type="radio" id="Bekas" name="Kondisi" value="Bekas"><br>
-                    <br>
-                    <br>
-                    <br>
-
-                    <a href="#" class="Cari">Cari</a>
-
-                </form>
             </div>
 
-            <div id="List">
-                <div class="Barang1 kotak">
-                    <div class="Thumbnail">
-                        <img src="Images/Catalog/Ryzen3.png">
-                        
-                    </div>
-
-                    <div class="Desc">
-                        <p>AMD Ryzen 3 3200G 3.6Ghz Up To 4.0Ghz Cache 4MB 65W AM4</p><br>
-                        <p>Rp1.363.000</p><br>
-                        <a href="invoice.html" class="Beli">Beli</a>
-                    </div>
-
+            <div class="Barang5 kotak">
+                <div class="Thumbnail">
+                    <img src="Images/Catalog/1650.jfif">
                 </div>
 
-                <div class="Barang2 kotak">
-                    <div class="Thumbnail">
-                        <img src="Images/Catalog/Ryzen5.png">
-                    </div>
-
-                    <div class="Desc">
-                        <p>AMD Ryzen 5 3600 3.6Ghz Up To 4.2Ghz Cache 32MB 65W AM4</p><br>
-                        <p>Rp2.879.000</p><br>
-                        <a href="invoice.html" class="Beli">Beli</a>
-                    </div>
-
+                <div class="Desc">
+                    <p>GALAX Geforce GTX 1650 SUPER 4GB DDR6 EX (1-Click OC)</p><br>
+                    <p>Rp2.480.000</p><br>
+                    <a href="invoice.html" class="Beli">Beli</a>
                 </div>
 
-                <div class="Barang3 kotak">
-                    <div class="Thumbnail">
-                        <img src="Images/Catalog/Intel3.png">
-                    </div>
-
-                    <div class="Desc">
-                        <p>Intel Core i3-9100F 3.6Ghz Up To 4.2Ghz</p><br>
-                        <p>Rp1.135.000</p><br>
-                        <a href="invoice.html" class="Beli">Beli</a>
-                    </div>
-
-                </div>
-
-                <div class="Barang4 kotak">
-                    <div class="Thumbnail">
-                        <img src="Images/Catalog/Intel5.png">
-                    </div>
-
-                    <div class="Desc">
-                        <p>Intel Core i5 9600K Coffee Lake 6-Core 3.7 GHz LGA 1151</p><br>
-                        <p>Rp3.379.000</p><br>
-                        <a href="invoice.html" class="Beli">Beli</a>
-                    </div>
-
-                </div>
-
-                <div class="Barang5 kotak">
-                    <div class="Thumbnail">
-                        <img src="Images/Catalog/1650.jfif">
-                    </div>
-
-                    <div class="Desc">
-                        <p>GALAX Geforce GTX 1650 SUPER 4GB DDR6 EX (1-Click OC)</p><br>
-                        <p>Rp2.480.000</p><br>
-                        <a href="invoice.html" class="Beli">Beli</a>
-                    </div>
-
-                </div>
-
-                <div class="Barang6 kotak">
-                    <div class="Thumbnail">
-                        <img src="Images/Catalog/2080.jfif">
-                    </div>
-
-                    <div class="Desc">
-                        <p>MSI GeForce RTX 2080 Ti 11GB GDDR6 - Gaming X Trio</p><br>
-                        <p>Rp23.949.000</p><br>
-                        <a href="invoice.html" class="Beli">Beli</a>
-                    </div>
-
-                </div>
-
-                <div class="Barang7 kotak">
-                    <div class="Thumbnail">
-                        <img src="Images/Catalog/580.png">
-                    </div>
-
-                    <div class="Desc">
-                        <p>MSI Radeon RX 580 8GB - Armor 8G OC</p><br>
-                        <p>Rp2.729.000</p><br>
-                        <a href="invoice.html" class="Beli">Beli</a>
-                    </div>
-
-                </div>
-
-                <div class="Barang8 kotak">
-                    <div class="Thumbnail">
-                        <img src="Images/Catalog/VEGA.jfif">
-                    </div>
-
-                    <div class="Desc">
-                        <p>PowerColor Radeon™ RX VEGA 64 8GB HBM2-LIMITED</p><br>
-                        <p>Rp11.500.000</p><br>
-                        <a href="invoice.html" class="Beli">Beli</a>
-                    </div>
-
-                </div>
-
-                <div class="Barang9 kotak">
-                    <div class="Thumbnail">
-                        <img src="Images/Catalog/Corsair16.jpg">
-                    </div>
-
-                    <div class="Desc">
-                        <p>Corsair Vengeance RGB PRO 16GB (2 x 8GB) DDR4 3200MHz</p><br>
-                        <p>Rp1.670.000</p><br>
-                        <a href="invoice.html" class="Beli">Beli</a>
-                    </div>
-
-                </div>
-
-                <div class="Barang10 kotak">
-                    <div class="Thumbnail">
-                        <img src="Images/Catalog/Tsunami.jpg">
-                    </div>
-
-                    <div class="Desc">
-                        <p>RAM DDR4 V-GeN TSUNAMI X 16GB 2666MHz CL15 (2X8GB) RGB</p><br>
-                        <p>Rp1.168.000</p><br>
-                        <a href="invoice.html" class="Beli">Beli</a>
-                    </div>
-
-                </div>
-
-                <div class="Barang11 kotak">
-                    <div class="Thumbnail">
-                        <img src="Images/Catalog/XPG.jpg">
-                    </div>
-
-                    <div class="Desc">
-                        <p>ADATA DDR4 XPG SPECTRIX D41 PC24000 32GB (2X16GB)</p><br>
-                        <p>Rp2.250.000</p><br>
-                        <a href="invoice.html" class="Beli">Beli</a>
-                    </div>
-
-                </div>
-
-                <div class="Barang12 kotak">
-                    <div class="Thumbnail">
-                        <img src="Images/Catalog/Delta.jpg">
-                    </div>
-
-                    <div class="Desc">
-                        <p>Team T-Force Delta RGB PC24000 3000Mhz Dual Channel 16GB (2X8GB)</p><br>
-                        <p>Rp1.185.000</p><br>
-                        <a href="invoice.html" class="Beli">Beli</a>
-                    </div>
-
-                </div>
             </div>
 
-        </main>
+            <div class="Barang6 kotak">
+                <div class="Thumbnail">
+                    <img src="Images/Catalog/2080.jfif">
+                </div>
 
-        <footer id="Footer">
-            <div class="FootLeft FootBox">
-                <p>Contact</p>
+                <div class="Desc">
+                    <p>MSI GeForce RTX 2080 Ti 11GB GDDR6 - Gaming X Trio</p><br>
+                    <p>Rp23.949.000</p><br>
+                    <a href="invoice.html" class="Beli">Beli</a>
+                </div>
+
             </div>
 
-            <div class="FootCenter FootBox">
-                <p>Address</p>
+            <div class="Barang7 kotak">
+                <div class="Thumbnail">
+                    <img src="Images/Catalog/580.png">
+                </div>
+
+                <div class="Desc">
+                    <p>MSI Radeon RX 580 8GB - Armor 8G OC</p><br>
+                    <p>Rp2.729.000</p><br>
+                    <a href="invoice.html" class="Beli">Beli</a>
+                </div>
+
             </div>
 
-            <div class="FootRight FootBox">
-                <p>Service</p>
+            <div class="Barang8 kotak">
+                <div class="Thumbnail">
+                    <img src="Images/Catalog/VEGA.jfif">
+                </div>
+
+                <div class="Desc">
+                    <p>PowerColor Radeon™ RX VEGA 64 8GB HBM2-LIMITED</p><br>
+                    <p>Rp11.500.000</p><br>
+                    <a href="invoice.html" class="Beli">Beli</a>
+                </div>
+
             </div>
 
-        </footer>
+            <div class="Barang9 kotak">
+                <div class="Thumbnail">
+                    <img src="Images/Catalog/Corsair16.jpg">
+                </div>
 
-    </body>
+                <div class="Desc">
+                    <p>Corsair Vengeance RGB PRO 16GB (2 x 8GB) DDR4 3200MHz</p><br>
+                    <p>Rp1.670.000</p><br>
+                    <a href="invoice.html" class="Beli">Beli</a>
+                </div>
+
+            </div>
+
+            <div class="Barang10 kotak">
+                <div class="Thumbnail">
+                    <img src="Images/Catalog/Tsunami.jpg">
+                </div>
+
+                <div class="Desc">
+                    <p>RAM DDR4 V-GeN TSUNAMI X 16GB 2666MHz CL15 (2X8GB) RGB</p><br>
+                    <p>Rp1.168.000</p><br>
+                    <a href="invoice.html" class="Beli">Beli</a>
+                </div>
+
+            </div>
+
+            <div class="Barang11 kotak">
+                <div class="Thumbnail">
+                    <img src="Images/Catalog/XPG.jpg">
+                </div>
+
+                <div class="Desc">
+                    <p>ADATA DDR4 XPG SPECTRIX D41 PC24000 32GB (2X16GB)</p><br>
+                    <p>Rp2.250.000</p><br>
+                    <a href="invoice.html" class="Beli">Beli</a>
+                </div>
+
+            </div>
+
+            <div class="Barang12 kotak">
+                <div class="Thumbnail">
+                    <img src="Images/Catalog/Delta.jpg">
+                </div>
+
+                <div class="Desc">
+                    <p>Team T-Force Delta RGB PC24000 3000Mhz Dual Channel 16GB (2X8GB)</p><br>
+                    <p>Rp1.185.000</p><br>
+                    <a href="invoice.html" class="Beli">Beli</a>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer id="Footer">
+        <div class="FootLeft FootBox">
+            <h2>Contact</h2>
+            <br>
+            <strong>Bintaro, 34242, IDN</strong>
+            <br>
+            <strong>kompiku@gmail.com</strong>
+            <br>
+            <strong>+ 628 124 2232 122</strong>
+        </div>
+
+        <div class="FootCenter FootBox">
+            <h2>Address</h2>
+            <br>
+            <strong>Bintaro Jaya Sektor 9 - Puri Bintaro</strong>
+        </div>
+
+        <div class="FootRight FootBox">
+            <h2>Service</h2>
+            <br>
+            <a href="about_us.html">About Us</a>
+            <br>
+            <a href="#">Product</a>
+            <br>
+            <a href="#">Career</a>
+        </div>
+
+    </footer>
+
+</body>
 
 </html>
